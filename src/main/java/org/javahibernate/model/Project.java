@@ -53,5 +53,14 @@ public class Project {
     public void setEmployees(List<Employee> employees) {
         this.employees = employees;
     }
+
+    @Override
+    public String toString() {
+        return "Project{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", budget=" + budget +
+                '}';
+    }
 }
 
